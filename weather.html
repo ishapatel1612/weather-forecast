@@ -16,14 +16,27 @@
   <body>
     <br />
     <div class="container">
-      <div class="card px-3" style="width: 40rem;">
+      <div class="card px-3" style="width: 40rem">
         <div class="card-body">
           <form id="enter-city-form">
-            <input type="username" id="city-input" class="mb-4 me-2" placeholder="Enter city" />
+            <input
+              type="username"
+              id="city-input"
+              class="mb-4 me-2"
+              placeholder="Enter city"
+            />
 
-            <input type="submit" value="Search" class="btn btn-primary btn-sm" />
-            <input type="button" id="current-weather" value="Current" class="btn btn-success btn-sm" 
-             />
+            <input
+              type="submit"
+              value="Search"
+              class="btn btn-primary btn-sm"
+            />
+            <input
+              type="button"
+              id="current-weather"
+              value="Current"
+              class="btn btn-success btn-sm"
+            />
           </form>
 
           <div class="container">
@@ -31,9 +44,9 @@
               <div class="col-6">
                 <div class="card">
                   <div class="card-body">
-                  <h1 class="text-warning" id="city">Nairobi</h2>
-                  <p class="fs-4" id="day"> Sunday 09:00 </p>
-                  <!--- <span class="fs-5" id="time">09:00</span> --->
+                    <h1 class="text-warning" id="city">London</h1>
+                    <p class="fs-4" id="day">Sunday 09:00</p>
+                    <!--- <span class="fs-5" id="time">09:00</span> --->
                   </div>
                 </div>
               </div>
@@ -43,8 +56,14 @@
                   <div class="col">
                     <div class="card text-center mb-2 pt-2 pb-2 fs-2">
                       <span>
-                        <span id="temp">19</span> 
-                        <span class="tempUnits" id="temp-units"><a href="#" id="celcius-link">˚C</a> |<a href="#" id="farenheit-link">˚F</a></span>
+                        <span id="temp">19</span>
+                        <span class="tempUnits" id="temp-units"
+                          ><a href="#" id="celcius-link">˚C</a> |<a
+                            href="#"
+                            id="farenheit-link"
+                            >˚F</a
+                          ></span
+                        >
                       </span>
                     </div>
                   </div>
@@ -54,7 +73,7 @@
                 </div>
                 <div class="row px-2 mb-4">
                   <span class="card pt-2 pb-2">
-                    <span>Humidity:<span id="humidity"></span></span> 
+                    <span>Humidity:<span id="humidity"></span></span>
                     <br />
                     <span>Wind Speed: <span id="wind-speed"></span></span>
                   </span>
@@ -65,42 +84,55 @@
 
           <div class="container text-center mt-4">
             <div class="row mb-3">
-
               <div class="col px-3">
-                <div class="card"> 
-                  <h4 class="card-title fs-5">Mon </h1>
-                  <p class="fs-2">☀️ <br> <span class="fs-5">26˚</span></p>
-                </div>                             
+                <div class="card">
+                  <h4 class="card-title fs-5">Mon</h4>
+                  <p class="fs-2">
+                    ☀️ <br />
+                    <span class="fs-5">26˚</span>
+                  </p>
+                </div>
               </div>
 
               <div class="col px-3">
-                <div class="card"> 
-                  <h4 class="card-title fs-5">Tue</h1>
-                  <p class="fs-2">☀️<br> <span class="fs-5">26˚</span></p>               
-                </div>                                              
+                <div class="card">
+                  <h4 class="card-title fs-5">Tue</h4>
+                  <p class="fs-2">
+                    ☀️<br />
+                    <span class="fs-5">26˚</span>
+                  </p>
+                </div>
               </div>
 
               <div class="col px-3">
-                <div class="card"> 
-                  <h4 class="card-title fs-5">Wed</h1>
-                  <p class="fs-2">☀️ <br> <span class="fs-5">27˚</span></p>
-                </div>                                               
+                <div class="card">
+                  <h4 class="card-title fs-5">Wed</h4>
+                  <p class="fs-2">
+                    ☀️ <br />
+                    <span class="fs-5">27˚</span>
+                  </p>
+                </div>
               </div>
 
               <div class="col px-3">
-                <div class="card"> 
-                  <h4 class="card-title fs-5">Thur</h1>
-                  <p class="fs-2">☀️ <br> <span class="fs-5">25˚</span></p>
-                </div>                                               
+                <div class="card">
+                  <h4 class="card-title fs-5">Thur</h4>
+                  <p class="fs-2">
+                    ☀️ <br />
+                    <span class="fs-5">25˚</span>
+                  </p>
+                </div>
               </div>
 
               <div class="col px-3">
-                <div class="card"> 
-                  <h4 class="card-title fs-5">Fri</h1>
-                  <p class="fs-2">☀️ <br> <span class="fs-5">25˚</span></p>
-                </div>                                               
+                <div class="card">
+                  <h4 class="card-title fs-5">Fri</h4>
+                  <p class="fs-2">
+                    ☀️ <br />
+                    <span class="fs-5">25˚</span>
+                  </p>
+                </div>
               </div>
-
             </div>
           </div>
         </div>
